@@ -4,6 +4,15 @@ img {
     height: auto;
   }
 
+input[type=submit] {
+    padding: 7px 20px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+  }
+
 /* #masthead {
     position: fixed;
     z-index: 99;
