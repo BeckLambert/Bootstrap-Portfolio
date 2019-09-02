@@ -46,7 +46,11 @@
     </header>
     <div class="container">
         <section class="main-section">
-            <h1>Contact</h1>
+            <div class="row">
+                <div class="col-md-3 pt-3 text-info">
+                    <h1>Contact</h1>
+                </div>
+            </div>
             <form id="contact-form">
                 <div class="controls">
                     <div class="row">
@@ -75,7 +79,7 @@
                                     placeholder="Your message here" rows="4" style="width: 40%"></textarea>
                             </div>
                         </div>
-                        <div class="col-md-12">
+                        <div class="col-md-12 pt-3">
                             <input type="submit" class="btn btn-success btn-send" value="Submit">
                         </div>
                     </div>
@@ -85,7 +89,13 @@
     </section>
     </div>
 
-    <footer> Copyright &copy;</footer>
+    <footer>
+        <div
+            class="containter p-3 mb-2 bg-secondary text-white text-center fixed-bottom border-top border border-info mw-100">
+            Copyright &copy;
+        </div>
+    </footer>
+
 </body>
 
 </html>
