@@ -15,7 +15,7 @@ body{
     width: 100%;
     max-width: 960px;
     padding: 50px;
-    margin-left: 200px;
+    margin-left: 225px;
     background: #ffffff;
     border: 1px solid #dddddd;
 }
@@ -56,7 +56,7 @@ img {
 nav {
         float: right;
         margin-top: 25px;
-        margin-right: 5px;
+        margin-right: 10px;
     }
     
 nav a {
@@ -81,6 +81,15 @@ input[type=submit] {
         background: #4aaaa5;
         border: 0 none;
       }
+
+#contact-form {
+    width: 100%;
+    max-width: 860px;
+    padding: 25px;
+    margin-left: 130px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+}
 
       /* portfolio css*/
 
